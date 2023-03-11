@@ -7,8 +7,9 @@
 
 body {
   padding-top: 5rem;
-background-color: bisque;
-
+  background-image: url("Images/REDBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .imgcontainer {
