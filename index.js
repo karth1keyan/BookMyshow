@@ -1,7 +1,9 @@
-function func(exp){
-    if(exp.checked == true){
-        document.body.style.backgroundImage = "URL('Images/BLUEBG.jpg')" ;
+function updatemenu() {
+    if (document.getElementById('responsive-menu').checked == true) {
+      document.getElementById('menu').style.borderBottomRightRadius = '0';
+      document.getElementById('menu').style.borderBottomLeftRadius = '0';
     }else{
-        document.body.style.backgroundImage = "URL('Images/REDBG.jpg')" ;
+      document.getElementById('menu').style.borderRadius = '4px';
     }
-}
+  }
+  
